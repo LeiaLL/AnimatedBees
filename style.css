@@ -1,0 +1,653 @@
+body {
+  background-color: lightblue;
+}
+
+.beebody .wing1 .wingMovement {
+  position: relative;
+  left: 7px;
+  top: 15px;
+  transform: rotate(76deg);
+}
+
+.beebody .wing1 .wingMovement1 {
+  height: 7px;
+  width: 1px;
+  position: relative;
+  top: -7px;
+  left: -2px;
+  transform: rotate(15deg);
+  animation: wing 4s 10s linear infinite;
+}
+
+.beebody .wing1 .wingMovement2 {
+  height: 7px;
+  width: 1px;
+  position: relative;
+  top: -15px;
+  left: -7px;
+  transform: rotate(-5deg);
+  animation: wing 4s 10s linear infinite;
+}
+
+.beebody .wing1 .wingMovement3 {
+  height: 7px;
+  width: 1px;
+  position: relative;
+  top: -20px;
+  left: -12px;
+  transform: rotate(-30deg);
+  animation: wing 4s 10s linear infinite;
+}
+
+.beebody .wing2 .wingMovement {
+  position: relative;
+  left: 5px;
+  top: 48px;
+  transform: rotate(150deg);
+}
+
+.beebody .wing2 .wingMovement1 {
+  height: 7px;
+  width: 1px;
+
+  position: relative;
+  top: -7px;
+  left: -2px;
+  transform: rotate(15deg);
+  animation: wing 5s 15s linear infinite;
+}
+
+.beebody .wing2 .wingMovement2 {
+  height: 7px;
+  width: 1px;
+
+  position: relative;
+  top: -15px;
+  left: -7px;
+  transform: rotate(-5deg);
+  animation: wing 5s 15s linear infinite;
+}
+
+.beebody .wing2 .wingMovement3 {
+  height: 7px;
+  width: 1px;
+
+  position: relative;
+  top: -20px;
+  left: -12px;
+  transform: rotate(-30deg);
+  animation: wing 5s 15s linear infinite;
+}
+
+.bee {
+  animation: move 4s linear infinite;
+}
+.beebody {
+  width: 60px;
+  height: 36px;
+  border-radius: 45%;
+  background-color: yellow;
+  position: relative;
+  top: 300px;
+  left: 200px;
+}
+
+.stinger {
+  width: 0;
+  height: 0;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-bottom: 6px solid black;
+  transform: rotate(90deg);
+  position: relative;
+  top: 12px;
+  left: 61px;
+}
+
+.eye {
+  background-color: black;
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  position: relative;
+  top: 12px;
+  left: 8px;
+}
+
+.strip1 {
+  width: 3px;
+  height: 27px;
+  background-color: black;
+  position: relative;
+  top: -4px;
+  left: 50px;
+  border-radius: 0 2px 2px 0;
+}
+
+.strip2 {
+  width: 3px;
+  height: 36px;
+  background-color: black;
+  position: relative;
+  top: -36px;
+  left: 36px;
+  border-radius: 0 1px 1px 0;
+}
+
+.strip3 {
+  width: 3px;
+  height: 36px;
+  background-color: black;
+  position: relative;
+  top: -72px;
+  left: 20px;
+  border-radius: 2px 0 0 2px;
+}
+
+.wing1 {
+  background-color: rgb(240, 235, 235);
+  height: 27px;
+  width: 22px;
+  border-radius: 50%;
+
+  position: relative;
+  top: -128px;
+  left: 30px;
+  transform: rotate(10deg);
+  z-index: -2;
+}
+
+.wing2 {
+  background-color: white;
+  height: 28px;
+  width: 21px;
+  border-radius: 50%;
+  position: relative;
+  top: -155px;
+  left: 16px;
+  transform: rotate(-10deg);
+  z-index: -1;
+}
+
+.beebody2 .wing1 .wingMovement1 {
+  height: 7px;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+  top: -7px;
+  left: -2px;
+  transform: rotate(15deg);
+  animation: wing 3s 9s linear infinite;
+}
+
+.beebody2 .wing1 .wingMovement2 {
+  height: 7px;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+  top: -15px;
+  left: -7px;
+  transform: rotate(-5deg);
+  animation: wing 3s 9s linear infinite;
+}
+
+.beebody2 .wing1 .wingMovement3 {
+  height: 7px;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+  top: -20px;
+  left: -12px;
+  transform: rotate(-30deg);
+  animation: wing 3s 9s linear infinite;
+}
+
+@keyframes wing {
+  15% {
+    background-color: #999;
+  }
+
+  20% {
+    background-color: rgba(92, 90, 90, 0.801);
+  }
+
+  25% {
+    background-color: rgba(153, 153, 153, 0);
+  }
+}
+
+.beebody2 .wing2 .wingMovement {
+  position: relative;
+  left: 21px;
+  top: 17px;
+  transform: rotate(80deg);
+}
+
+.beebody2 .wing2 .wingMovement1 {
+  height: 7px;
+  width: 1px;
+
+  position: relative;
+  top: -7px;
+  left: -2px;
+  transform: rotate(15deg);
+  animation: wing 4s 12s linear infinite;
+}
+
+.beebody2 .wing2 .wingMovement2 {
+  height: 7px;
+  width: 1px;
+
+  position: relative;
+  top: -15px;
+  left: -7px;
+  transform: rotate(-5deg);
+  animation: wing 4s 12s linear infinite;
+}
+
+.beebody2 .wing2 .wingMovement3 {
+  height: 7px;
+  width: 1px;
+
+  position: relative;
+  top: -20px;
+  left: -12px;
+  transform: rotate(-30deg);
+  animation: wing 4s 12s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+
+  10% {
+    transform: translateX(3px) translateY(2px);
+  }
+
+  15% {
+    transform: translateX(5px) translateY(5px);
+  }
+
+  30% {
+    transform: translateX(2px) translateY(-1px);
+  }
+
+  45% {
+    transform: translateX(-1px) translateY(3px);
+  }
+  60% {
+    transform: translateX(3px) translateY(0px);
+  }
+
+  75% {
+    transform: translateX(0px) translateY(3px);
+  }
+
+  90% {
+    transform: translateX(2px) translateY(2px);
+  }
+
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
+.bee2 {
+  animation: fly 5s linear infinite;
+}
+
+.beebody2 {
+  width: 60px;
+  height: 36px;
+  border-radius: 45%;
+  background-color: yellow;
+  position: relative;
+  top: 450px;
+  left: 500px;
+}
+
+.stinger2 {
+  width: 0;
+  height: 0;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-bottom: 6px solid black;
+  transform: rotate(90deg);
+  position: relative;
+  top: 12px;
+  left: 61px;
+}
+
+.eye2 {
+  background-color: black;
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  position: relative;
+  top: 12px;
+  left: 8px;
+}
+
+.beebody2 .wing1 {
+  background-color: rgb(240, 235, 235);
+  height: 27px;
+  width: 22px;
+  border-radius: 50%;
+
+  position: relative;
+  top: -158px;
+  left: 30px;
+  transform: rotate(10deg);
+  z-index: -2;
+}
+
+.beebody2 .wing2 {
+  background-color: white;
+  height: 28px;
+  width: 21px;
+  border-radius: 50%;
+  position: relative;
+  top: -185px;
+  left: 16px;
+  transform: rotate(-10deg);
+  z-index: -1;
+}
+
+.beebody2 .strip1 {
+  width: 2px;
+  height: 26px;
+  background-color: black;
+  position: relative;
+  top: -4px;
+  left: 50px;
+  border-radius: 0 2px 2px 0;
+}
+
+.beebody2 .strip2 {
+  width: 3px;
+  height: 33.5px;
+  background-color: black;
+  position: relative;
+  top: -34px;
+  left: 40px;
+  border-radius: 0 2px 2px 0;
+}
+
+.beebody2 .strip3 {
+  width: 3px;
+  height: 36px;
+  background-color: black;
+  position: relative;
+  top: -69px;
+  left: 28px;
+  border-radius: 0 1px 1px 0;
+}
+
+.beebody2 .strip4 {
+  width: 2px;
+  height: 34px;
+  background-color: black;
+  position: relative;
+  top: -104px;
+  left: 18px;
+  border-radius: 1px 0 0 1px;
+}
+
+@keyframes fly {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+
+  10% {
+    transform: translateX(1px) translateY(3px);
+  }
+
+  15% {
+    transform: translateX(3px) translateY(4px);
+  }
+
+  30% {
+    transform: translateX(2px) translateY(-1px);
+  }
+
+  45% {
+    transform: translateX(0px) translateY(2px);
+  }
+  60% {
+    transform: translateX(-2px) translateY(0px);
+  }
+
+  75% {
+    transform: translateX(0px) translateY(2px);
+  }
+
+  90% {
+    transform: translateX(3px) translateY(5px);
+  }
+
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
+.bee3 {
+  animation: fly 4s linear infinite;
+}
+
+.beebody3 {
+  width: 60px;
+  height: 39px;
+  border-radius: 45%;
+  background-color: yellow;
+  position: relative;
+  top: 550px;
+  left: 700px;
+}
+
+.stinger3 {
+  width: 0;
+  height: 0;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-bottom: 6px solid black;
+  transform: rotate(-90deg);
+  position: relative;
+  top: 13px;
+  left: -5px;
+}
+
+.eye3 {
+  background-color: black;
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  position: relative;
+  top: 12px;
+  left: 50px;
+}
+
+.beebody3 .wing1 {
+  background-color: rgb(240, 235, 235);
+  height: 27px;
+  width: 22px;
+  border-radius: 50%;
+
+  position: relative;
+  top: -173px;
+  left: 24px;
+  transform: rotate(10deg);
+  z-index: -2;
+}
+
+.beebody3 .wing2 {
+  background-color: white;
+  height: 28px;
+  width: 21px;
+  border-radius: 50%;
+  position: relative;
+  top: -200px;
+  left: 10px;
+  transform: rotate(-10deg);
+  z-index: -1;
+}
+
+.beebody3 .strip1 {
+  width: 2px;
+  height: 32px;
+  background-color: black;
+  position: relative;
+  top: -5px;
+  left: 9px;
+  border-radius: 2px 0 0 2px;
+}
+
+.beebody3 .strip2 {
+  width: 2px;
+  height: 37px;
+  background-color: black;
+  position: relative;
+  top: -40px;
+  left: 40px;
+  border-radius: 0 1px 1px 0;
+}
+
+.beebody3 .strip3 {
+  width: 2px;
+  height: 39px;
+  background-color: black;
+  position: relative;
+  top: -78px;
+  left: 29px;
+  border-radius: 0 1px 1px 0;
+}
+
+.beebody3 .strip4 {
+  width: 2px;
+  height: 37px;
+  background-color: black;
+  position: relative;
+  top: -116px;
+  left: 18px;
+  border-radius: 1px 0 0 1px;
+}
+
+#curves div {
+  width: 100px;
+  height: 25px;
+  border: 1px solid #999;
+}
+
+#curves.width div {
+  border-color: transparent transparent transparent #999;
+}
+
+#curves.color div {
+  border-width: 0 0 0 1px;
+}
+
+#curves.all div {
+  border-width: 1px;
+  border-color: #ddd #ddd #ddd #999;
+}
+
+#curve3 {
+  -moz-border-radius: 30px 0 0 70px;
+  border-radius: 30px 0 0 70px;
+}
+
+#curve4 {
+  width: 300px;
+  -moz-border-radius: 50px 0 0 50px;
+  border-radius: 50px 0 0 50px;
+}
+
+.beebody .antler1 {
+  position: relative;
+  top: 14px;
+  left: -113px;
+  transform: rotate(155deg);
+}
+
+.beebody .antler2 {
+  position: relative;
+  top: -13px;
+  left: -106px;
+  transform: rotate(140deg);
+}
+
+.beebody .ball1 {
+  position: relative;
+  top: -29px;
+  left: -26px;
+}
+
+.beebody .ball2 {
+  position: relative;
+  top: -65px;
+  left: -26px;
+}
+
+.beebody2 .antler1 {
+  position: relative;
+  top: -179px;
+  left: -77px;
+  transform: rotate(140deg);
+  z-index: -1;
+}
+
+.beebody2 .antler2 {
+  position: relative;
+  top: -209px;
+  left: -83px;
+  transform: rotate(150deg);
+  z-index: -1;
+}
+
+.beebody2 .ball1 {
+  position: relative;
+  top: -231px;
+  left: 1px;
+}
+
+.beebody2 .ball2 {
+  position: relative;
+  top: -255px;
+  left: 1px;
+}
+
+.beebody3 .antler1 {
+  position: relative;
+  top: -189px;
+  left: 31px;
+  transform: rotate(50deg);
+  z-index: -1;
+}
+
+.beebody3 .antler2 {
+  position: relative;
+  top: -212px;
+  left: 32px;
+  transform: rotate(50deg);
+  z-index: -1;
+}
+
+.ball1,
+.ball2 {
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  background-color: #999;
+}
+
+.beebody3 .ball1 {
+  position: relative;
+  top: -248px;
+  left: 58px;
+}
+
+.beebody3 .ball2 {
+  position: relative;
+  top: -271px;
+  left: 59px;
+}
